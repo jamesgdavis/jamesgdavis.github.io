@@ -20,13 +20,37 @@
 
 title: James G. Davis
 email: james.davis.g@outlook.com
+
+author:
+  name: James G. Davis
+  email: james.davis.g@outlook.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   Cybersecurity graduate focused on network administration, systems security,
   homelab infrastructure, technical writing, and practical IT projects.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamesgdavis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  jamesgdavis
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Homelab
+    url: /homelab/
+  - title: Writing & Research
+    url: /writing-research/
+  - title: Internship
+    url: /internship/
+  - title: Resume
+    url: /resume/
+  - title: Contact
+    url: /contact/
 
 # Build settings
 theme: minima
