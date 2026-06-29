@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Projects
+permalink: /projects/
 ---
 
-# About
+# Projects
 
 This page is being developed.

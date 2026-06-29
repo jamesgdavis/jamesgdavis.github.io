@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Homelab
+permalink: /homelab/
 ---
 
-# About
+# Homelab
 
 This page is being developed.

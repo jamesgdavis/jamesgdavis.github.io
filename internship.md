@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Internship
+permalink: /internship/
 ---
 
-# About
+# Internship
 
 This page is being developed.

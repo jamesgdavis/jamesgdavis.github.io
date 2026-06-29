@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Contact
+permalink: /contact/
 ---
 
-# About
+# Contact
 
 This page is being developed.

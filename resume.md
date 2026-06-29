@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: Resume
+permalink: /resume/
 ---
 
-# About
+# Resume
 
 This page is being developed.
