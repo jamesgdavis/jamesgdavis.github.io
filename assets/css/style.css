@@ -60,6 +60,11 @@ a {
     color: #fff;
 }
 
+.nav-links a.active {
+    color: #fff;
+    border-bottom: 2px solid #2a9fd6;
+}
+
 .nav-toggle {
     display: none;
 }
