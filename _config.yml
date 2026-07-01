@@ -59,8 +59,6 @@ navigation:
   - title: Homelab
     url: /homelab/
     children:
-      - title: Overview
-        url: /homelab/
       - title: Hardware
         url: /homelab/hardware/
       - title: Network Architecture
@@ -87,8 +85,6 @@ navigation:
   - title: Documentation
     url: /documentation/
     children:
-      - title: Overview
-        url: /documentation/
       - title: Git & GitHub
         url: /documentation/git-github/
       - title: Jekyll & GitHub Pages
