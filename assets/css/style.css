@@ -114,6 +114,42 @@ a {
     padding: 2.5rem 1rem;
 }
 
+.site-alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1100px;
+    margin: 0 auto;
+
+    padding: 0.55rem 1rem;
+
+    background: #eaf5fa;
+    color: #1f4f68;
+
+    border: 1px solid #c8e4f1;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.site-alert p {
+    margin: 0;
+}
+
+.site-alert-close {
+    border: none;
+    background: transparent;
+    color: #1f4f68;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+}
+
+.site-alert-close:hover {
+    color: #165576;
+}
+
 .site-footer {
     padding: 2rem 1rem;
     text-align: center;

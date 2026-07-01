@@ -15,10 +15,24 @@
     <body>
         {% include nav.html %}
 
+        <div class="site-alert" id="site-alert">
+            <p>
+                <strong>Portfolio Status:</strong>
+                This portfolio is actively evolving. New projects, homelab documentation, and technical documentation will continue to be added over time.
+            </p>
+
+            <button class="site-alert-close" type="button" aria-label="Dismiss portfolio status message">
+                ×
+            </button>
+        </div>
+
         <main class="site-main">
             {{ content }}
         </main>
 
         {% include footer.html %}
+
+        <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+
     </body>
 </html>
