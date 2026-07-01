@@ -69,6 +69,41 @@ a {
     display: none;
 }
 
+.nav-item {
+    position: relative;
+}
+
+.has-dropdown > a span {
+    font-size: 0.7rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    min-width: 240px;
+    padding: 0.5rem 0;
+
+    background: #2b2b2b;
+    border: 1px solid #3a3a3a;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+    z-index: 20;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.55rem 0.85rem;
+    white-space: nowrap;
+}
+
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
 .site-main {
     flex: 1;
 

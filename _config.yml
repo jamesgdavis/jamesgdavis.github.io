@@ -37,18 +37,69 @@ github_username:  jamesgdavis
 navigation:
   - title: Home
     url: /
+
   - title: About
     url: /about/
-  - title: Projects
-    url: /projects/
-  - title: Homelab
-    url: /homelab/
-  - title: Writing & Research
-    url: /writing-research/
-  - title: Internship
-    url: /internship/
+
   - title: Resume
     url: /resume/
+
+  - title: Projects
+    url: /projects/
+    children:
+      - title: Raspberry Pi Infrastructure
+        url: /projects/raspberry-pi-infrastructure/
+      - title: Backup Automation
+        url: /projects/backup-automation/
+      - title: GitHub ePortfolio
+        url: /projects/github-eportfolio/
+      - title: Windows Administration Workstation
+        url: /projects/windows-administration-workstation/
+
+  - title: Homelab
+    url: /homelab/
+    children:
+      - title: Overview
+        url: /homelab/
+      - title: Hardware
+        url: /homelab/hardware/
+      - title: Network Architecture
+        url: /homelab/network-architecture/
+      - title: Services
+        url: /homelab/services/
+      - title: Automation
+        url: /homelab/automation/
+      - title: Backup Strategy
+        url: /homelab/backup-strategy/
+
+  - title: Writing & Research
+    url: /writing-research/
+    children:
+      - title: Technical & Systems Security
+        url: /writing-research/technical-systems-security/
+      - title: Ethics, Law & Policy
+        url: /writing-research/ethics-law-policy/
+      - title: Research & Professional Writing
+        url: /writing-research/research-professional-writing/
+      - title: Internship Reflections
+        url: /writing-research/internship-reflections/
+
+  - title: Documentation
+    url: /documentation/
+    children:
+      - title: Overview
+        url: /documentation/
+      - title: Git & GitHub
+        url: /documentation/git-github/
+      - title: Jekyll & GitHub Pages
+        url: /documentation/jekyll-github-pages/
+      - title: Raspberry Pi
+        url: /documentation/raspberry-pi/
+      - title: Windows
+        url: /documentation/windows/
+      - title: Linux
+        url: /documentation/linux/
+
   - title: Contact
     url: /contact/
 
