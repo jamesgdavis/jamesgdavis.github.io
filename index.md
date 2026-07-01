@@ -56,3 +56,27 @@ title: Home
         </article>
     </div>
 </section>
+
+<section class="welcome-section">
+
+    <h2>Welcome</h2>
+
+    <p>
+        Welcome to my professional cybersecurity portfolio. This website
+        highlights my education, technical projects, homelab infrastructure,
+        research, and documentation as I continue developing practical skills in cybersecurity and systems administration.
+    </p>
+
+    <p>
+        My primary areas of interest include systems administration, network security, Linux,
+        Windows, technical documentation, and building practical solutions
+        through hands-on learning.
+    </p>
+
+    <p>
+        Whether you're a recruiter, hiring manager, fellow student, or
+        technology enthusiast, I hope this portfolio provides insight into my
+        technical abilities and continued professional growth.
+    </p>
+
+</section>
