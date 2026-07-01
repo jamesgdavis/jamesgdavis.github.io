@@ -457,3 +457,13 @@ a {
 .contact-closing {
     margin-top: 2rem;
 }
+
+.writing-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 850px) {
+    .writing-card-grid {
+        grid-template-columns: 1fr;
+    }
+}
